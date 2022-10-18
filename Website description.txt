@@ -1,4 +1,2 @@
 This is my programming gold web-project. The topic of this website is 
-going to be a single web-page, representing an art gallery. The website is 
-going to include multiple paintings, their location and many other useful 
-information.
+going to be a single web-page, representing an antivirus. 

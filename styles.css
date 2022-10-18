@@ -2,12 +2,11 @@ body{
     background-color: cornsilk;
 }
 
-jumbotron{
-    width: auto;
-    height: auto;
-}
 display-4{
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+}
+nav nav-pills{
+    position: sticky;
 }

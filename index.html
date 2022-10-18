@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DAG - Durham's Art Gallery</title>
-    <link href="css.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,156 +13,65 @@
       crossorigin="anonymous"
     />
   </head>
+
+
+
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-light bg-light">
       <a class="navbar-brand" href="#">
-        <img
-          src="Webpage_elements/333-3339522_antivirus-software-icon.png"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt=""
-        />
+        <img src="Webpage_elements/333-3339522_antivirus-software-icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
         Antivirus
       </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact us</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#fat">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mdo">Our technology</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact us</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#one">Contact us</a>
+            <a class="dropdown-item" href="#two">Your phone</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#three">Your email</a>
+          </div>
+        </li>
+      </ul>
     </nav>
-    <div class="jumbotron">
-      <h1 class="display-4">Welcome!</h1>
-      <p class="lead">
-        We are proud to present our first ever antivirus system which was
-        created to protect YOUR computer from any viruses.
-      </p>
-      <hr class="my-4" />
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+      <h4 id="fat">About us</h4>
+      <p>Some content </p>
+      <h4 id="mdo">Our technology</h4>
+      <p>Some content</p>
     </div>
-    <div>
-      <img
-        src="Webpage_elements/20201007000520_0.jpg"
-        class="img-fluid"
-        alt="Responsive image"
-      />
-    </div>
-    <div>
-      <h2 class="Why question">So why would you really want to use our product?</h2>
-    </div>
-    <div id="accordion">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button
-              class="btn btn-link"
-              data-toggle="collapse"
-              data-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-            >
-           1#  More than 10000 customers already use our product
-            </button>
-          </h5>
-        </div>
 
-        <div
-          id="collapseOne"
-          class="collapse show"
-          aria-labelledby="headingOne"
-          data-parent="#accordion"
-        >
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-            single-origin coffee nulla assumenda shoreditch et. Nihil anim
-            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-            occaecat craft beer farm-to-table, raw denim aesthetic synth
-            nesciunt you probably haven't heard of them accusamus labore
-            sustainable VHS.
-          </div>
-        </div>
+
+
+
+
+    <div data-spy="scroll" data-target="navbar-example2" data-offset="0">
+      <h4 id="one">Contact us</h4>
+      <p>Some content</p>
+      <h4 id="two">Your phone</h4>
+      <div class="form-group">
+        <label for="exampleInputphonenumber">Phone number</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
       </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              data-toggle="collapse"
-              data-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              Collapsible Group Item #2
-            </button>
-          </h5>
-        </div>
-        <div
-          id="collapseTwo"
-          class="collapse"
-          aria-labelledby="headingTwo"
-          data-parent="#accordion"
-        >
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-            single-origin coffee nulla assumenda shoreditch et. Nihil anim
-            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-            occaecat craft beer farm-to-table, raw denim aesthetic synth
-            nesciunt you probably haven't heard of them accusamus labore
-            sustainable VHS.
+      <h4 id="three">Your email</h4>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
           </div>
+        </form>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h5 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              data-toggle="collapse"
-              data-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              Collapsible Group Item #3
-            </button>
-          </h5>
-        </div>
-        <div
-          id="collapseThree"
-          class="collapse"
-          aria-labelledby="headingThree"
-          data-parent="#accordion"
-        >
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-            terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
-            skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-            single-origin coffee nulla assumenda shoreditch et. Nihil anim
-            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
-            sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-            occaecat craft beer farm-to-table, raw denim aesthetic synth
-            nesciunt you probably haven't heard of them accusamus labore
-            sustainable VHS.
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </body>      
 </html>
