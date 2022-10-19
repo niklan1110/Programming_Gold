@@ -3,3 +3,11 @@ Photo by <a href="https://unsplash.com/@serg_bataev?utm_source=unsplash&utm_medi
 Photo by <a href="https://unsplash.com/@zgc1993?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">冬城</a> on <a href="https://unsplash.com/s/photos/art-gallery?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 https://www.pngkey.com/detail/u2e6a9y3t4u2w7y3_antivirus-software-icon/
 https://www.koreaherald.com/view.php?ud=20201007000815
+https://img.freepik.com/free-photo/parents-daughter-using-digital-tablet-sofa-living-room-home_23-2148045495.jpg?w=1380&t=st=1666174532~exp=1666175132~hmac=bb1ad2f3498f637e31aacb9de8238a28929cf2e645b9fc32e70252788975f188
+https://png.pngtree.com/png-clipart/20190614/original/pngtree-isometric-electronic-devices-collection-png-image_3791895.jpg
+https://media.istockphoto.com/photos/black-family-with-kids-relax-on-couch-using-gadgets-picture-id1166111243?s=612x612
+https://s3.us-west-2.amazonaws.com/aa.techdemand.io/wp-content/uploads/2020/11/03180027/Cloud-security-1024x631.jpg
+I have used this templates as an example of what I should do:
+https://getbootstrap.com/docs/4.0/examples/carousel/
+https://getbootstrap.com/docs/4.0/examples/pricing/
+https://mdbootstrap.com/docs/b4/jquery/forms/contact/
