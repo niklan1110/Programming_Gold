@@ -11,3 +11,4 @@ I have used this templates as an example of what I should do:
 -- Carousel Template for Bootstrap. (n.d.). from https://getbootstrap.com/docs/4.0/examples/carousel/
 -- Pricing example for Bootstrap. (n.d.). from https://getbootstrap.com/docs/4.0/examples/pricing/
 -- MDBootstrap. (2018, June 25). Bootstrap Contact Form - examples & tutorial. Basic & advanced usage. MDB - Material Design for Bootstrap. https://mdbootstrap.com/docs/b4/jquery/forms/contact/
+This version of the website can be accessed via this address - https://www.kaversky.one/
