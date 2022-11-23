@@ -1,0 +1,4 @@
+1. Need to attach a dataset
+2. Understand how to use it with a diagram with bootstrap and d3
+3. Work on user inputs 
+4. understand how to use my own css file and bootstrap one 
