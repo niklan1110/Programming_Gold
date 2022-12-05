@@ -30,3 +30,35 @@ body{
     pointer-events: none;
     z-index: 1000;
 }
+ #city_picture{
+    width: auto ;
+    max-width: auto ;
+    height: auto ;
+  }
+  #jumbotron{
+    background-color: #6e41bf;
+  }
+  #stats{
+    background-color: #6f41c1;
+    width: auto;
+    height:auto
+  }
+
+  figure {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+  }
+  figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  figure:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
