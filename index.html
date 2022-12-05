@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Kaversky antivirus</title>
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous">
-      <link rel="stylesheet" href="style.css">
-    <style href="style.css"></style>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Kaversky antivirus</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
 
 
-  <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" style="background-color: #0063D2FF">
-      <a class="navbar-brand" id="home">
-        <img src="Webpage_elements/pngtree-data-security-lock-png-image_5921605.jpg"
-          width="50" height="50" class="d-inline-block align-top p-1 border" alt="Picture of a lock">
-          Kaversky Antivirus
-      </a>
+<body>
+  <div id="snow"></div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navbarColor01">
+    <a class="navbar-brand mx-4" href="#">Kaversky.one</a>
+    <a class="navbar-brand" href="#">
+      <img src="/Webpage_elements/333-3339522_antivirus-software-icon.png" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" style="color: black;" href="#Aboutus">About us</a>
-        </li>
+        <button class="btn btn-outline-success">
+          <a href="#Home">Home</a>
+        </button>
       </ul>
-    </nav>
-    <div id="carouselExampleControls" class="carousel slide"
-      data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="p-0.5 bg-light border">
-            <img class="d-block w-100"
-              src="Webpage_elements/parents-daughter-using-digital-tablet-sofa-living-room-home_23-2148045495.webp"
-              alt="First slide">
-          </div>
-          <div class="container">
-            <div class="carousel-caption text-left">
-              <h1>All you need in one application!</h1>
-              <p>Our antivirus is proven to be the most effective in dealing with
-                viruses of any type.</p>
-              <p><a class="btn btn-lg btn-primary" href="#Preorder"
-                  role="button">Pre-order</a></p>
-            </div>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <div id="carouselExampleControls" class="carousel slide container" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="p-0.5 bg-light border">
+          <img class="img-fluid w-100 "
+            src="Webpage_elements/20201007000520_0.jpg"
+            alt="First slide">
+        </div>
+      </div>
+        <div class="container">
+          <div class="carousel-caption text-left" id="Home">
+            <h1>All you need in one application!</h1>
+            <p>Our antivirus is proven to be the most effective in dealing with
+              viruses of any type.</p>
+            <p><a class="btn btn-lg btn-primary" href="#Preorder" role="button">Pre-order</a></p>
           </div>
         </div>
       </div>
-      <div class="p-5 bg-light border" id="Aboutus">
+      <div class="p-5 bg-light border mr-auto container" id="Aboutus">
         <div class="card-columns">
           <div class="card">
-            <img class="card-img-top"
-              src="Webpage_elements/pngtree-isometric-electronic-devices-collection-png-image_3791895.jpg
-              " alt="Card image cap">
+            <img class="card-img-top" src="Webpage_elements/SecuretheFamily_400x460.png" alt="Card image cap">
             <div class="card-body" id="one">
               <h5 class="card-title">Get yourself a copy!</h5>
               <p class="card-text">Our antivirus features a wide-range of
@@ -72,9 +80,7 @@
             </blockquote>
           </div>
           <div class="card">
-            <img class="card-img-top"
-              src="Webpage_elements/istockphoto-1166111243-612x612.jpg"
-              alt="Card image cap">
+            <img class="card-img-top" src="Webpage_elements/photo-1461685265823-f8d5d0b08b9b.webp" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Multiple devices</h5>
               <p class="card-text">Connect up to 5 different devices with our
@@ -94,7 +100,7 @@
                 private data safe around the internet and that is why VPN is
                 included in our standard subscription with many other features!</p>
             </div>
-            <div class="p-1 bg-light border">
+            <div class="p-2 bg-light border">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Real-time security checks</h5>
@@ -105,8 +111,7 @@
               </div>
             </div>
             <div class="card">
-              <img class="card-img"
-                src="Webpage_elements/Cloud-security-1024x631.jpg" alt="Card
+              <img class="card-img pt" src="Webpage_elements/vecteezy_happy-family-father-mother-and-daughter-sitting-on-the_5429317_223.jpg" alt="Card
                 image">
             </div>
             <div class="card p-3 text-right">
@@ -122,141 +127,138 @@
           </div>
         </div>
       </div>
-      <div id="scatter_area">
-        <svg width='600' height="600"> </svg>
-      </div>
-
-      <div>
-
-
-
-      </div>
-      <div class="card p-3 text-right">
-        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto
+      <div id="stats">
+        <div class="card p-3 text-right container mt-3">
+          <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto
           text-center">
-          <h1 class="display-4 font-weight-normal card-text">Pricing</h1>
-          <p class="card-text">Here are all types of subscription on our product
-            which is going to suit every single user</p>
+            <h1 class="display-3 font-weight card-text">Data</h1>
+            <div id="my_dataviz"></div>
+            <p class="card-text mt-5 mb-4">This diagram shows that demand for computer safety applications is increasing every single year. Millions of people choose to
+              protect their infomration and we recommend you to do so as soon as possible. Remember: "The safety of your data is our primary task."
         </div>
-      </div>
-      <div class="container" id="Preorder">
-        <div class="card-deck mb-3 text-center">
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Free</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">£0 <small
-                  class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>1 user included</li>
-                <li>2 GB of cloud storage</li>
-                <li>VPN included</li>
-              </ul>
-              <a type="button" class="btn btn-lg btn-block
+        <div class="card p-3 text-right">
+          <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto
+          text-center mb-4">
+            <h1 class="display-3 font-weight card-text">Pricing</h1>
+            <p class="card-text mb-3 mt-3">Here are all types of subscription on our product
+              which is going to suit every single user</p>
+            <div class="container" id="Preorder">
+              <div class="card-deck mb-3 text-center">
+                <div class="card box-shadow">
+                  <div class="card-header mb-3">
+                    <h4 class="my-0 font-weight-normal">Free</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">£0 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>1 user included</li>
+                      <li>2 GB of cloud storage</li>
+                      <li>VPN included</li>
+                    </ul>
+                    <a type="button" class="btn btn-lg btn-block
                 btn-outline-primary" href="#Final">Pre-order</a>
+                  </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                  <div class="card-header mb-3">
+                    <h4 class="my-0 font-weight-normal">Pro</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">£10 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>3 users included</li>
+                      <li>5 GB of cloud storage</li>
+                      <li>Priority email support</li>
+                      <li>Help center access</li>
+                      <li>VPN included (more than 20 servers available)</li>
+                    </ul>
+                    <a type="button" class="btn btn-lg btn-block btn-primary" href="#Final">Pre-order</a>
+                  </div>
+                </div>
+                <div class="card mb-4 box-shadow">
+                  <div class="card-header mb-3">
+                    <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">£20 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>5 users included</li>
+                      <li>10 GB of cloud storage</li>
+                      <li>Phone and email support</li>
+                      <li>Help center access</li>
+                      <li>VPN included (more than 20 servers available)</li>
+                      <li>Access to beta features</li>
+                      <li>And many more...</li>
+                    </ul>
+                    <a type="button" class="btn btn-lg btn-block btn-primary" href="#Final">Pre-order</a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Pro</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">£10 <small
-                  class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>3 users included</li>
-                <li>5 GB of cloud storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
-                <li>VPN included (more than 20 servers available)</li>
-              </ul>
-              <a type="button" class="btn btn-lg btn-block btn-primary" href="#Final">Pre-order</a>
-            </div>
-          </div>
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Enterprise</h4>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title pricing-card-title">£20 <small
-                  class="text-muted">/ mo</small></h1>
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>5 users included</li>
-                <li>10 GB of cloud storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
-                <li>VPN included (more than 20 servers available)</li>
-                <li>Access to beta features</li>
-                <li>And many more...</li>
-              </ul>
-              <a type="button" class="btn btn-lg btn-block btn-primary" href="#Final">Pre-order</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <section class="mb-5">
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Pre-order</h2>
-        <p class="text-center w-responsive mx-auto mb-5 p-4">If you have any
-          questions or you want to pre-order our antivirus, please
-          leave your contacts below and we will contact us as soon as we can.
-        </p>
+            <section class="mb-5">
+              <h2 class="h1-responsive font-weight-bold text-center my-4">Pre-order</h2>
+              <p class="text-center w-responsive mx-auto mb-5 p-4">If you have any
+                questions or you want to pre-order our antivirus, please
+                leave your contacts below and we will contact us as soon as we can.
+              </p>
 
-        <div class="row">
-          <div class="col-md-6 mb-md-0 mb-5 mx-auto p-5">
-            <form id="contact-form" name="contact-form" action="mail.php"
-              method="POST" >
-              <div class="row" id="Final">
-                <div class="col-md-4">
-                  <div class="md-form mb-0">
-                    <input type="text" id="name" name="name"
-                      class="form-control">
-                    <label for="name" class="">Your name</label>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input type="text" id="email" name="email"
-                      class="form-control">
-                    <label for="email" class="">Your email</label>
-                  </div>
-                </div>
-              </div>
-              <div class="row" id="Aboutus">
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <select class="form-control">
-                      <option>Pre-order</option>
-                      <option>Question</option>
-                    </select>
-                    <label for="subject" class="">Subject</label>
-                  </div>
-                </div>
-              </div>
               <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6 mb-md-0 mb-5 mx-auto p-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <div class="row" id="Final">
+                      <div class="col-md-4">
+                        <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row" id="Aboutus">
+                      <div class="col-md-12">
+                        <div class="md-form mb-0">
+                          <select class="form-control">
+                            <option>Pre-order</option>
+                            <option>Question</option>
+                          </select>
+                          <label for="subject" class="">Subject</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
 
-                  <div class="md-form">
-                    <textarea type="text" id="Contactus" name="message"
-                      rows="2" class="form-control md-textarea"></textarea>
-                    <label for="message">Your message</label>
+                        <div class="md-form">
+                          <textarea type="text" id="Contactus" name="message" rows="2"
+                            class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                        </div>
+
+                      </div>
+                    </div>
+                  </form>
+                  <div class="text-center text-md-left">
+                    <a class="btn btn-primary active"  id="success" data-dismiss="alert">Send</a>
                   </div>
-
+                  <div class="status"></div>
                 </div>
               </div>
-            </form>
-            <div class="text-center text-md-left">
-              <a class="btn btn-primary">Send</a>
-            </div>
-            <div class="status"></div>
-          </div>
-        </div>
-        <footer class="popover-header">
-          <p class="float-right"><a href="#home">Back to top</a></p>
-          <p>© 2022-2023 Kaversky, Inc. · <a>Privacy</a> · <a>Terms</a></p>
-        </footer>
-      </section>
-      <script src="https://d3js.org/d3.v7.min.js"></script>
-      <script src="script.js"></script>
-    </body>
-  </html>
+            </section>
+            <footer class="popover-header">
+              <p class="float-right"><a href="#Home">Back to top</a></p>
+              <p>© 2022-2023 Kaversky, Inc. · <a>Privacy</a> · <a>Terms</a></p>
+            </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <script src="https://d3js.org/d3.v4.js"></script>
+            <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+            <script src="script.js"></script>
+</body>
+
+</html>
