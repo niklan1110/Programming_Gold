@@ -1,5 +1,5 @@
-// https://d3-graph-gallery.com/graph/line_cursor.html
 /**
+ * https://d3-graph-gallery.com/graph/line_cursor.html
  * This part of the code sets the proper 
  * dimensions of the chart. In this specific case
  * values of 900 and 600 were chosen.
@@ -185,3 +185,6 @@ document.addEventListener('DOMContentLoaded', function(){
   document.head.append(script);
 });
 
+function show_alert(){
+  alert("You have submitted your answer. Our support team will contact you ASAP.");
+}

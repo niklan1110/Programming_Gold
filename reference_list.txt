@@ -7,7 +7,7 @@ and bootstrap's package of elements is connected to this website.
 -- Cloud_and_lock_picture. (n.d.). https://s3.us-west-2.amazonaws.com/aa.techdemand.io/wp-content/uploads/2020/11/03180027/Cloud-security-1024x631.jpg
 -- Picture_of_a_lock. (n.d.). https://png.pngtree.com/png-clipart/20210310/original/pngtree-data-security-lock-png-image_5921605.jpghttps://png.pngtree.com/png-clipart/20210310/original/pngtree-data-security-lock-png-image_5921605.jpg
 
-I have used this templates as an example of what I should do:
+I have used these templates as an example of what I should do:
 -- Carousel Template for Bootstrap. (n.d.). from https://getbootstrap.com/docs/4.0/examples/carousel/
 -- Pricing example for Bootstrap. (n.d.). from https://getbootstrap.com/docs/4.0/examples/pricing/
 -- MDBootstrap. (2018, June 25). Bootstrap Contact Form - examples & tutorial. Basic & advanced usage. MDB - Material Design for Bootstrap. https://mdbootstrap.com/docs/b4/jquery/forms/contact/
